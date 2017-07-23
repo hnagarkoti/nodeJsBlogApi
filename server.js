@@ -97,7 +97,7 @@ app.use('/api/v1/', routes);
 
 app.get('/api/v1/popular/posts', function(req, res){
   console.log('coming');
-  models.Blogs.find().sort({'createdAt': -1}).limit(3)
+  models.Blogs.find().sort({'createdAt': -1}).limit(4)
   .then(function( results ){
     res.apiSuccess(results)
   })

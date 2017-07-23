@@ -1,5 +1,6 @@
 {
   "secret": "justdoit",
-  "database": "mongodb://localhost:27017/armentum",
+  "database": "mongodb://ds117913.mlab.com:17913/armentum?user=hemantnagarkoti&password=wrF-KYlFKaeG_a1JAfdxcKQKvJyspXrk",
+  "database": "mongodb://armentum:armentum@ds117913.mlab.com:17913/armentum",
   "SALT_WORK_FACTOR": 10
 }
