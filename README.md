@@ -15,7 +15,7 @@ If you want to checkout the API documentation also.
 
 * `npm install apidoc -g` Using sudo if required.
 * `npm install` inside project directory
-* Run  `npm run start` or if doesnot  work run `apidoc -i api/routes/docs/ -o api/public/apidoc/`
+* Run  `npm run start` or if doesnot  work run `apidoc -i api/routes/docs/ -o api/public/apidoc/` and then `node server.js`
 * It will start listening on port 8080
 * Once started listening, You can checkout the api documentation to this url `http://localhost:8080/apidoc/` or [Click Here](http://localhost:8080/apidoc/)
 
